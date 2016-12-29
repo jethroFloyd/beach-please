@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+        <title>Beach Please</title>
+        <meta name="description" content="Welcome to Beach Please! The beach-themed concert experience like no other.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="jethroFloyd">
+
+        <!-- ================= Favicon ================== -->
+        <!-- Standard -->
+        <link rel="shortcut icon" href="img/favicon.png">
+        <!-- Retina iPad Touch Icon-->
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-retina-ipad.png">
+        <!-- Retina iPhone Touch Icon-->
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-retina-iphone.png">
+        <!-- Standard iPad Touch Icon--> 
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-standard-ipad.png">
+        <!-- Standard iPhone Touch Icon--> 
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon-standard-iphone.png">
+
+        <!-- ============== Resources style ============== -->
+        <link rel="stylesheet" href="css/style.css" />
+
+		<!-- Modernizr runs quickly on page load to detect features -->
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	
+	<body>
+
+		<!-- YouTube link -->
+		<a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=gfl4ZJFbxkE',containment:'body',autoPlay:true, mute:false, startAt:0, stopAt:0, opacity:1}"></a>
+
+		<!-- Page preloader -->
+		<div id="loading">
+			<div id="preloader">
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+
+		<!-- Overlay and Star effect -->
+		<div class="global-overlay">
+			<div class="overlay skew-part light-overlay">
+
+				<div id='stars'></div>
+				<div id='stars2'></div>
+				<div id='stars3'></div>
+
+			</div>
+		</div>
+
+		<!-- START - Home/Left Part -->
+		<section id="left-side">
+
+			<!-- Your logo -->
+			<img src="img/logo2.png" alt="" class="brand-logo" />
+
+			<div class="content">
+
+				<h1 class="text-intro opacity-0"><span
+     class="txt-rotate"
+     data-period="800"
+     data-rotate='[ "Music", "Sand", "Party", "Rave", "Dance", "Sing", "Barbeque", "Festival", "Love", "Happiness", "Adventure", "Thrill", "Fun", "Beach" ]'></span>, Please! <br>
+					</h1>
+
+				<h2 class="text-intro opacity-0">Beach Please is India's first indoor beach-themed concert experience.<br><br>
+					Listen to some of the top-billed artists, play frisbee or chill out at the shack - life's a beach  <i class="fa fa-hand-spock-o" aria-hidden="true"></i>
+					<br><br>
+					Coming soon to Kolkata!</h2>
+
+				<nav>
+					<ul>
+						<li>
+							<a href="#" id="open-more-info" data-target="right-side" class="light-btn text-intro opacity-0">Tell me more!</a>
+						</li>
+						<!--<li>
+							<a data-dialog="somedialog" class="action-btn trigger text-intro opacity-0">Keep me posted!</a>
+						</li> -->
+					</ul>
+				</nav>
+
+			</div>
+
+			<!-- Social icons -->
+			<div class="social-icons">
+
+				<a href="https://fb.me/beachpleasein"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/beachpleasein"><i class="fa fa-twitter"></i></a>
+				<a href="https://instagram.com/beachpleasein"><i class="fa fa-instagram"></i></a>
+				<a href="mailto:aditya@beachplease.in"><i class="fa fa-envelope"></i></a>
+
+			</div>
+
+		</section>
+		<!-- END - Home/Left Part -->
+
+		<!-- OPEN - Player control -->
+		<nav id="player-nav">
+			<ul>
+				<li data-toggle="tooltip" data-placement="top" data-title="Play" data-trigger="hover">
+					<a onclick="$('#bgndVideo').playYTP()"><i class="fa fa-play"></i></a>
+				</li>
+
+				<li data-toggle="tooltip" data-placement="top" data-title="Pause" data-trigger="hover">
+					<a onclick="$('#bgndVideo').pauseYTP()"><i class="fa fa-pause"></i></a>
+				</li>
+
+				<li class="full-play" data-toggle="tooltip" data-placement="top" data-title="Fullscreen" data-trigger="hover">
+					<a class="expand-player"><i class="fa fa-expand"></i></a>
+				</li>
+
+				<li class="comp-play display-none" data-toggle="tooltip" data-placement="top" data-title="Reduce" data-trigger="hover">
+					<a class="compress-player"><i class="fa fa-compress"></i></a>
+				</li>
+
+			</ul>
+		</nav> <!-- CLOSE - Player control -->
+
+		<!-- START - More Informations/Right Part -->
+		<section id="right-side" class="hide-right">
+
+			<div class="content">
+
+				<p><strong>Beach Please</strong> is a unique experiential 2 day music concert, where we recreate a real-life beach in an indoor environment. Bringing in some of the best electronic musical talents of the country, this event is a unique adventure in the sand where alongside the rave-party themed music, there will be fun beach activities, great food, a relaxed atmosphere and a one-of-a-kind experience!</p>
+				<br><br>
+				<p> Watch this space for more updates soon! </p>
+				<p> For sponsorship opportunities, drop us an e-mail at <a href="mailto:aditya@beachplease.in">aditya@beachplease.in</a> </p>
+
+				<span class="separator"></span>
+				<h3>Team</h3>
+				<p> Graduates from the Cambridge School of Art and ex-Theatre Professors at the State University of New York, Kheya and Aditya from DhikChik LLP are accomplished performers. Aditya is a film-maker, actor, playwright and curator. Kheya has acted in over 10 feature films and has been an art and creative director for films and commercials. Together, they have curated India's largest mixed-media art installation project at the highly acclaimed <a target="_blank" href="http://indiatoday.intoday.in/story/tales-through-trams-nostalgia-revisited-with-adda-tram/1/668832.html">Tram Tales</a>; helped organize the <a target="_blank" href="http://www.kolkatalitfest.in">Kolkata Literary Fest</a> 2017 and produced and directed <a target="_blank" href="https://www.youtube.com/watch?v=Zai-fCjxV_s">theatres at the State University of New York</a> and <a target="_blank" href="https://www.youtube.com/watch?v=eqmkA9vaeHY">films for BBC 4</a>.  </p>
+
+				<!--
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+ 
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img_chania.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="img_chania2.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="img_flower.jpg" alt="Flower">
+    </div>
+
+    <div class="item">
+      <img src="img_flower2.jpg" alt="Flower">
+    </div>
+  </div>
+
+
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> -->
+<span class="separator"></span>
+
+				<h3>Get in touch with us!</h3>
+				
+				<p>Let us know what you want, what you feel and what you like!</p>
+
+                <!-- START - Contact Form -->
+            	<form id="contact-form" name="contact-form" method="POST" data-name="Contact Form">
+
+            		<div class="row">
+
+                        <!-- Full name -->
+                        <div class="col-xs-12 col-sm-6 col-lg-6">
+                            <div class="form-group">
+                                <input type="text" id="name" class="form form-control" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" name="name" data-name="Name" required>
+                            </div>
+                        </div>
+
+                        <!-- E-mail -->
+                        <div class="col-xs-12 col-sm-6 col-lg-6">
+                            <div class="form-group">
+                                <input type="email" id="email" class="form form-control" placeholder="Your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'" name="email-address" data-name="Email Address" required>
+                            </div>
+                        </div>
+
+                        <!-- Subject -->
+                        <div class="col-xs-12 col-sm-12 col-lg-12">
+                            <div class="form-group">
+                                <input type="text" id="subject" class="form form-control" placeholder="Write the subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'" name="subject" data-name="Subject">
+                            </div>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="col-xs-12 col-sm-12 col-lg-12 no-padding">
+                            <div class="form-group">
+                                <textarea id="text-area" class="form textarea form-control" placeholder="Your message here... Minimum 20 Characters!." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your message here... Minimum 20 Characters!'" name="message" data-name="Text Area" required></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+
+                	<!-- Button submit -->
+                	<button type="submit" id="valid-form" class="btn btn-color">Go!</button>
+    
+                </form>
+                <!-- END - Contact Form -->
+	            
+	            <!-- Answer for the contact form is displayed in the next div, do not remove it. -->       
+                <div id="block-answer">
+
+					<div id="answer"></div>
+
+				</div>
+
+				<div class="info-contact row">
+
+                    <div class="col-xs-12 col-sm-4 col-lg-4 item-map">
+                        <div class="contact-item"><i class="icon ion-ios-telephone"></i>
+                            <p>Phone: (+91) 98301 91480
+                               </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 col-lg-4 item-map">
+                        <div class="contact-item"><i class="icon ion-ios-location"></i>
+                            <p>Coming Soon To 
+                                <br>Kolkata, Summer 2017</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 col-lg-4 item-map">
+                        <div class="contact-item"><i class="icon ion-ios-email"></i>
+                            <p><a href="http://www.beachplease.in">beachplease.in</a>
+                            	<br><a href="mailto:aditya@beachplease.in">aditya@beachplease.in</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+			</div>
+			<!-- /. Content -->
+
+			<footer>
+
+				<p>© A DhikChik LLP Presentation</p>
+
+			</footer>
+
+		</section>
+		<!-- START - More Informations/Right Part -->
+
+		<!-- Button Cross to close the More Informations/Right Part -->
+		<button id="close-more-info" class="hide-close"><i class="icon ion-ios-close-outline"></i></button>
+
+		<!-- START - Newsletter Popup -->
+		<div id="somedialog" class="dialog">
+
+			<div class="dialog__overlay"></div>
+					
+			<div class="dialog__content">
+						
+				<div class="dialog-inner">
+							
+					<h4>Subscribe</h4>
+							
+					<p>We won't spam you or sell your information. Now that we have that out of the way, please do let us know how we should update you about the Beach, Please! extravaganza every now and then. </strong></p>
+
+					<!-- Newsletter Form -->
+					<div id="subscribe">
+
+		                <form action="php/notify-me.php" id="notifyMe" method="POST">
+
+		                    <div class="form-group">
+
+		                        <div class="controls">
+		                            
+		                        	<!-- Field  -->
+		                        	<input type="text" id="mail-sub" name="email" placeholder="Click here to write your email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Click here to write your email'" class="form-control email srequiredField" />
+
+		                        	<!-- Spinner top left during the submission -->
+		                        	<i class="fa fa-spinner opacity-0"></i>
+
+		                            <!-- Button -->
+		                            <button class="btn btn-lg submit">Done!</button>
+
+		                            <div class="clear"></div>
+
+		                        </div>
+
+		                    </div>
+
+		                </form>
+
+						<!-- Answer for the newsletter form is displayed in the next div, do not remove it. -->
+						<div class="block-message">
+
+							<div class="message">
+
+								<p class="notify-valid"></p>
+
+							</div>
+
+						</div>
+
+        			</div>
+        			<!-- /. Newsletter Form -->
+
+				</div>
+				<!-- /. dialog-inner -->
+
+				<!-- Button Cross to close the Newsletter Popup -->
+				<button class="close-newsletter" data-dialog-close><i class="icon ion-close-round"></i></button>
+
+			</div>
+			<!-- /. dialog__content -->
+						
+		</div>
+		<!-- END - Newsletter Popup -->
+
+		<!-- Root element of PhotoSwipe, the gallery. Must have class pswp. -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+		    <!-- Background of PhotoSwipe. 
+	        	It's a separate element as animating opacity is faster than rgba(). -->
+		    <div class="pswp__bg"></div>
+
+		    <!-- Slides wrapper with overflow:hidden. -->
+		    <div class="pswp__scroll-wrap">
+
+		        <!-- Container that holds slides. 
+		            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+		            Don't modify these 3 pswp__item elements, data is added later on. -->
+		        <div class="pswp__container">
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		        </div>
+
+		        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+		        <div class="pswp__ui pswp__ui--hidden">
+
+		            <div class="pswp__top-bar">
+
+		                <!--  Controls are self-explanatory. Order can be changed. -->
+
+		                <div class="pswp__counter"></div>
+
+		                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+		                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+		                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+		                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+		                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+		                <!-- element will get class pswp__preloader--active when preloader is running -->
+		                <div class="pswp__preloader">
+		                    <div class="pswp__preloader__icn">
+		                      <div class="pswp__preloader__cut">
+		                        <div class="pswp__preloader__donut"></div>
+		                      </div>
+		                    </div>
+		                </div>
+
+		            </div>
+
+		            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+		                <div class="pswp__share-tooltip"></div> 
+		            </div>
+
+		            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+		            </button>
+
+		            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+		            </button>
+
+		            <div class="pswp__caption">
+		                <div class="pswp__caption__center"></div>
+		            </div>
+
+		        </div>
+
+		    </div>
+
+		</div>
+		<!-- /. Root element of PhotoSwipe. Must have class pswp. -->
+
+	<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ********** Resources jQuery ********** -->
+    <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+	
+	<!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easings.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- PhotoSwipe Core JS file -->
+	<script src="js/velocity.min.js"></script> 
+
+	<!-- PhotoSwipe UI JS file -->
+	<script src="js/velocity.ui.min.js"></script> 
+
+	<!-- Newsletter plugin -->
+	<script src="js/notifyMe.js"></script>
+
+	<!-- Contact form plugin -->
+	<script src="js/contact-me.js"></script>
+
+	<!-- Slideshow/Image plugin -->
+	<script src="js/vegas-youtube-mobile.js"></script>
+
+	<!-- YouTube plugin -->
+	<script src="js/jquery.mb.YTPlayer.js"></script>
+
+	<!-- Scroll plugin -->
+	<script src="js/jquery.mousewheel.js"></script>
+
+	<!-- Custom Scrollbar plugin -->
+	<script src="js/jquery.mCustomScrollbar.js"></script>
+
+	<!-- Popup Newsletter Form -->
+	<script src="js/classie.js"></script>
+	<script src="js/dialogFx.js"></script>
+
+	<!-- PhotoSwipe Core JS file -->
+	<script src="js/photoswipe.js"></script> 
+
+	<!-- PhotoSwipe UI JS file -->
+	<script src="js/photoswipe-ui-default.js"></script> 
+
+	<!-- Main JS File -->
+	<script src="js/main.js"></script>
+	<script src="js/typer.js"></script>
+	<!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+
+	</body>
+
+</html>
