@@ -29,7 +29,7 @@ $(window).load(function(){
 
             complete: function(){
                 $("#loading").velocity("fadeOut", {
-                    duration: 1000,
+                    duration: 5000,
                     easing: [0.7,0,0.3,1],
                 }); 
             }
@@ -46,7 +46,7 @@ $(window).load(function(){
         },
 
         {
-            duration: 1000,
+            duration: 5000,
             easing: [0.7,0,0.3,1],
         })
         
