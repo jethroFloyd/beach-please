@@ -1599,7 +1599,7 @@ footer p {
 }
 
 .light-overlay {
-  background: rgba(32, 35, 45, 0.1) !important;
+  background: rgba(32, 35, 45, 0.5) !important;
 }
 
 #player-nav {
